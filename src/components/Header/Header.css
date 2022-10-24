@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    border-bottom: 3px solid rgb(42, 7, 240);
+}
+.nav a {
+    text-decoration: none;
+    color:#000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.logo h2 a{
+    text-decoration:none;
+    color:#000;
+    margin-left: 15px;
+}
+.active {
+    color:red;
+    text-decoration:underline;
+}
