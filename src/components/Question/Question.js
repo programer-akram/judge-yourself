@@ -16,7 +16,7 @@ const Question = ({question, index}) => {
 
     const handleAnswer = () => {
         setAnswer(question.correctAnswer); 
-        toast.success( answer);   
+        toast.success(`Correct Answer :  ${answer}`);   
         
     }
     const handleOption = (val) => {

@@ -19,7 +19,5 @@
 }
 .correctAnswer{
     color: green;
-    padding:5px 10px;
-    font-size:16px;
-    font-weight: bold;
+    padding:5px 10px; 
 }
