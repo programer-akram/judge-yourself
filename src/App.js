@@ -17,7 +17,7 @@ function App() {
         {
           path: '/',
           loader:async ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
-         element: <Topics></Topics>
+          element: <Topics></Topics>
        },
         {
           path: '/topics',
@@ -42,7 +42,7 @@ function App() {
         {
           path: '*',
          element: <div><h2>404 Error, page not found</h2></div>
-       },
+       }
       ]
       
     }
